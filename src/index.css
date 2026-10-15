@@ -1,0 +1,38 @@
+:root {
+  --ink: #35463b;
+  --line: #e7e5d8;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Arial, sans-serif;
+  --mono: 'Cascadia Code', Consolas, monospace;
+  color: var(--ink);
+  background: #f8f7ef;
+  font-family: var(--sans);
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 10% 30%, rgba(226, 233, 204, 0.28), transparent 38%),
+    radial-gradient(ellipse at 90% 76%, rgba(245, 226, 183, 0.2), transparent 34%),
+    #f8f7ef;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  color: #35463b;
+  background: #dce6c9;
+}
